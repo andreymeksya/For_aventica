@@ -1,0 +1,86 @@
+#tic-tac-toe-board {
+    display: block;
+    margin: 0 auto;
+  }
+  
+  .canvas-wrapper {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+  }
+  
+  .canvas-wrapper-parent {
+    transform-style: preserver-3d;
+  }
+  
+  .divBlock{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+  }
+
+  .divBlockAuth{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+
+  .divBlockBtn{
+    height: 30px;
+  }
+
+  #inpName{
+    height: 24px;
+  }
+  
+  .divPlay{
+    display: flex;
+	  align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .headLine{
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .sectionName{
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    border: 1px solid;
+    border-radius: 6px;
+    height: 30px;
+  }
+
+  .sectionCanvas{
+    display: flex;
+	  align-items: center;
+    justify-content: center; 
+    margin-top: 30px;
+  }
+
+  .sectionChoose {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 10px;
+  }
+
+  #divResult{
+    background-color: rgb(206, 114, 235);
+  }
+
+  .btnChooseBlock{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+
+  .startChoose{
+    text-align: center;
+    margin-top: 20px;
+  }
+ 
